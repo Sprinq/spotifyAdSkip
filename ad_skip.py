@@ -6,9 +6,9 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 # Replace these with your own credentials
-SPOTIPY_CLIENT_ID = 'spotify_client_id'
-SPOTIPY_CLIENT_SECRET = 'spotify_secret_id' 
-SPOTIPY_REDIRECT_URI = 'http://localhost:8080/'
+SPOTIPY_CLIENT_ID = 'your_client_id'
+SPOTIPY_CLIENT_SECRET = 'your_client_secret'
+SPOTIPY_REDIRECT_URI = 'your_redirect_uri'
 
 scope = 'user-read-playback-state user-modify-playback-state'
 
