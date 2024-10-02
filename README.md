@@ -1,6 +1,6 @@
-# Spotify Ad Skipper
+# Windows Spotify Ad Skipper
 
-This Python script created mostly by ChatGPT that detects when an ad is playing on Spotify, closes the Spotify application, reopens it, and resumes playback. It utilizes the Spotify Web API to detect ads and uses system commands to control the Spotify application.
+This Python script created mostly by ChatGPT detects when an ad is playing on Spotify, closes the Spotify application, reopens it, and resumes playback. It utilizes the Spotify Web API to detect ads and uses system commands to control the Spotify application.
 
 ## Requirements
 
@@ -14,7 +14,7 @@ This Python script created mostly by ChatGPT that detects when an ad is playing 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/spotify-ad-skipper.git
+   git clone https://github.com/Sprinq/spotifyAdSkip.git
    cd spotify-ad-skipper
 2. **Install Dependencies**:
    ```bash
@@ -46,7 +46,7 @@ This Python script created mostly by ChatGPT that detects when an ad is playing 
    ```bash
    python ad_skip.py
 ## How It Works
-- The script will continuously check if an ad is playing every 10 seconds.
+- The script will continuously check if an ad is playing every 3 seconds.
 - If an ad is detected, it will close the Spotify application.
 - It will then reopen Spotify and press the play button to resume playback.
 
