@@ -39,6 +39,7 @@ def main():
     while True:
         if is_ad_playing():
             print("Ad detected, closing Spotify...")
+            time.sleep(2)
             close_spotify()
             print("Reopening Spotify...")
             reopen_spotify()
