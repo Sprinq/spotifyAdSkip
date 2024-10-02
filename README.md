@@ -37,7 +37,7 @@ This Python script created mostly by ChatGPT detects when an ad is playing on Sp
 2. **Update the Path to Spotify Executable**:
    - Update the path to your Spotify executable in the `reopen_spotify` function:
      ```python
-     subprocess.Popen(['C:/path/to/Spotify.exe'])  # Update with your Spotify path
+     subprocess.Popen([r"C:/path/to/Spotify.exe"])  # Update with your Spotify path
      ```
 
 ## Usage
