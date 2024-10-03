@@ -35,7 +35,7 @@ def press_play_button():
     time.sleep(2)  # Wait for the app to be ready
     pyautogui.press('space')  # Press space to play
     # Minimize the Spotify window
-    time.sleep(1)
+    time.sleep(1) # Wait a moment before minimizing
     #pyautogui.hotkey('alt', 'space')  # Open the window menu
     #pyautogui.press('n')  # Press 'n' to minimize
 
