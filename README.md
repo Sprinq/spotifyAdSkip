@@ -1,6 +1,6 @@
 # Edit Oct. 3, 2024:
 
-Below is a much better app that mimics most of Spotify premium:
+This is a much better app that mimics most of Spotify premium:
 https://github.com/mrpond/BlockTheSpot?tab=readme-ov-file
 
 # Windows Spotify Ad Skipper
