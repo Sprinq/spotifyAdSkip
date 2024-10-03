@@ -1,3 +1,8 @@
+# Edit Oct. 3, 2024:
+
+Below is a much better app that mimics most of Spotify premium:
+https://github.com/mrpond/BlockTheSpot?tab=readme-ov-file
+
 # Windows Spotify Ad Skipper
 
 This Python script created mostly by ChatGPT detects when an ad is playing on Spotify, closes the Spotify application, reopens it, and resumes playback. It utilizes the Spotify Web API to detect ads and uses system commands to control the Spotify application.
