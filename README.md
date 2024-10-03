@@ -42,7 +42,7 @@ This Python script created mostly by ChatGPT detects when an ad is playing on Sp
 
 ## Optional: Minimize Spotify
 
-   - Uncomment these two lines from the press_play_button() function seen below
+   - Uncomment these two lines from the press_play_button() function seen below:
      ```python
      #pyautogui.hotkey('alt', 'space')  # Open the window menu
      #pyautogui.press('n')  # Press 'n' to minimize
@@ -53,7 +53,9 @@ This Python script created mostly by ChatGPT detects when an ad is playing on Sp
 1. **Run the Script**:
    ```bash
    python ad_skip.py
+   
 ## How It Works
+
 - The script will continuously check if an ad is playing every 3 seconds.
 - If an ad is detected, it will close the Spotify application.
 - It will then reopen Spotify and press the play button to resume playback.
